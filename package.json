@@ -1,0 +1,25 @@
+{
+  "name": "candy",
+  "version": "1.0.0",
+  "description": "Learning music ",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "candy music academy",
+    "online music",
+    "learn music through online",
+    "learn carnatic music",
+    "music academy"
+  ],
+  "author": "Patrick Muriungi",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0"
+  }
+}
