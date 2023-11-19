@@ -532,7 +532,7 @@
                   class="shadow form-control form-control-lg">
               </div>
               <div id="contact-width" class="col-lg-6 col-md mb-3">
-                <input name="contact" type="tel" value="+91 " placeholder="Phone Number" id="phone" maxlength="12" oninput="sanitizeContactNumber(this)" required
+                <input name="contact" type="tel" value="+91 " placeholder="Phone Number" id="phone" maxlength="13" oninput="sanitizeContactNumber(this)" required
                   class="shadow form-control form-control-lg">
               </div>
               <div class="col-lg-6 col-md mb-3">
@@ -700,7 +700,7 @@
       var cleaned = input.value.replace(/[^0-9+]/g, '');
 
       // Limit the length to 10 digits
-      cleaned = cleaned.slice(0, 12);
+      cleaned = cleaned.slice(0, 13);
 
       // Update the input value
       input.value = cleaned;
