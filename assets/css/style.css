@@ -4560,6 +4560,14 @@ fieldset:disabled .btn {
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
+@media (max-width: 540px) {
+  .navbar-collapse{
+margin-top: 10px;
+  }
+  .navbar-collapse .btn-rounded {
+    margin-top: 10px;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
